@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
-import { FaQuoteRight } from 'react-icons/fa';
 import data from './data';
+import Person from './Person';
+import Title from './Title';
 function App() {
-  return <h2>slider project setup</h2>;
+  const [people ,setPeople] = useState(data);
+  return <section className='section'>
+    <Title />
+  <Person people={people} />
+  </section>;
 }
 
 export default App;
