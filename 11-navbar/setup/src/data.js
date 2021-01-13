@@ -1,10 +1,10 @@
 import React from 'react'
-import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaBehance, FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 export const links = [
   {
     id: 1,
     url: '/',
-    text: 'random',
+    text: 'home',
   },
   {
     id: 2,
@@ -23,16 +23,17 @@ export const links = [
   },
   {
     id: 5,
-    url: '/profile',
-    text: 'profile',
+    url: '/reviews',
+    text: 'reviews',
   },
+  
 ]
 
 export const social = [
   {
     id: 1,
-    url: 'https://www.twitter.com',
-    icon: <FaFacebook />,
+    url: 'https://www.github.com',
+    icon: <FaGithub />,
   },
   {
     id: 2,
